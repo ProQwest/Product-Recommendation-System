@@ -141,7 +141,7 @@ def itemBasedRecommandations(ratings, MatchiItem, wantPrediction):
     count = 0
     for tuple in wantPrediction:
         if count < 3:
-            print "Predeicting....."
+
             user = tuple[0]
             itemAsked = tuple[1]
             print ratings[user]
